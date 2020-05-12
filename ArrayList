@@ -1,0 +1,17 @@
+package forum1105;
+
+import java.util.ArrayList;
+
+public class Item {
+	public static void main(String[] args) {
+		ArrayList<String> ListItem = new ArrayList();
+	    
+		ListItem.add("parafuso");
+		ListItem.add("martelo");
+		
+		System.out.println("O ArrayList [ListItem] tem tamnho"
+				+ ListItem.size ()
+				+" e armazena "
+				+ ListItem.size ()+ " elemtos ");
+	}
+}
