@@ -1,0 +1,22 @@
+package forum1105;
+
+public class Produto {		
+	
+	public static void main(String[] args) {
+		String[] NomeDeProduto = new String[3];
+		NomeDeProduto[0] = "cerveja" ;
+		NomeDeProduto[1] = "carne";
+		NomeDeProduto[2] = "carvão";
+		
+		
+		for(int i = 0; i < NomeDeProduto.length; i++) {
+			System.out.println("O array [NomeDeProduto] tem tamanho " 
+					+ NomeDeProduto.length 
+					+ " e armazena " 
+					+  " elementos");
+	  }
+	
+	}
+	
+
+}
